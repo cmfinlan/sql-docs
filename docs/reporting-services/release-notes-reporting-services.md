@@ -1,6 +1,6 @@
 ---
 title: "Release notes for (SSRS) 2017 and later | Microsoft Docs"
-ms.date: 02/18/2019
+ms.date: 12/04/2019
 ms.prod: reporting-services
 ms.prod_service: reporting-services-native
 ms.technology: reporting-services
@@ -45,6 +45,19 @@ We are "standardizing" all our 'Release Notes' style articles:
 
 GeneMi, DevOps = 1467988 (MsEng > TechnicalContent) , 2019/03/19
 -->
+## 14.0.600.1451 2019/11/13 
+
+| Fixed issue | Details |
+| :---------- | :------ |
+| Security updates | &nbsp; |
+| Paginated reports did not work properly with filter parameters when snapshot is enabled  | &nbsp; |
+| Users with Browser role and default settings did not have the right to download Excel files  | &nbsp; |
+| Upgrading to PBIRS from SSRS 2016 failed during upgrade | &nbsp; |
+| After upgrading from 2012, subscriptions were failing with “An invalid character was found in the mail header: ','” message | &nbsp; |
+| Configuration tool: cancelling modal windows in Database section would restart the Reporting Services service | &nbsp; |
+| BorderStyle property expression of Textbox controls were not rendered to Excel format  | &nbsp; |
+| Pagination issue that could get certain reports stuck with rendering the same page without ever reaching the last page of the report | &nbsp; |
+
 
 ## 14.0.600.1109, 2019/02/12
 
